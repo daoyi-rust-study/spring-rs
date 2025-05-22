@@ -14,8 +14,9 @@ members = [
     "spring-mail",
     "spring-opentelemetry",
     "examples/*",
+    "daoyi-spring-openapi",
 ]
-default-members = ["spring", "spring-*"]
+default-members = ["spring", "spring-*", "daoyi-spring-*"]
 exclude = ["examples/**"]
 
 [workspace.package]
